@@ -25,7 +25,7 @@ test("Multiple soft assertions with final hard assertion", async ({ page }) => {
 
   // Multiple soft assertions
   await expect.soft(page.getByRole("heading", { name: "Login Page" })).toBeVisible();
-  await expect.soft(page).toHaveURL(/logins/);
+  await expect.soft(page).toHaveURL(/login/);
   await expect.soft(page.locator("#flash")).not.toBeVisible();
 
   // Final hard assertion
