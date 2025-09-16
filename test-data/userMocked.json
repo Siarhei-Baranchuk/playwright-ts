@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": 2,
+    "email": "test-email@gmail.com",
+    "first_name": "Test First Name",
+    "last_name": "Test Last Name",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+    "text": "Text for test purposes"
+  }
+}
