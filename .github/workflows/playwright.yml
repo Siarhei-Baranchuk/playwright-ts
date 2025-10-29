@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: ios-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout code
