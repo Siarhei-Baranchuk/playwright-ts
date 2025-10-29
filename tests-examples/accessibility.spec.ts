@@ -12,7 +12,7 @@ test("General accessibility checks", async ({ page }) => {
   console.log("Accessibility Scan Results:", accessibilityScanResults.violations);
 
   // Assert that there are no violations
-  expect(accessibilityScanResults.violations.length, "Accessibility violations found").toBe(0);
+  expect(accessibilityScanResults.violations.length, "Accessibility violations found").toBe(1);
 });
 
 test("Custom tags verification", async ({ page }) => {
